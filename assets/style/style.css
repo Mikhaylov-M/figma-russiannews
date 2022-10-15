@@ -14,9 +14,128 @@ button {
   border: none;
 }
 body {
-  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  font-family:'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
 /* BASE CONFIG */
+/* UNIQUE */
+.bold {
+  font-weight: 700;
+}
+.link {
+  color: #146EF5;
+}
+/* UNIQUE */
 /* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  width: 100%;
+  height: 122px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.header__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+.header__search {
+  display: flex;
+}
+.header__input {
+  width: 366px;
+  height: 46px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 0 15px;
+}
+.header__btn {
+  width: 135px;
+  height: 46px;
+  background: #000000;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+/* HEADER */
+/* MAIN */
+.main {
+  display: flex;
+  padding: 40px 50px 0;
+  column-gap: 113px;
+}
+.news {
+  width: 863px;
+}
+.article {
+  margin-bottom: 30px;
+}
+.article__title {
+  width: 736px;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 61px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.article__date {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.article__lg-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.article__images {
+  width: 100%;
+  display: flex;
+  column-gap: 11px;
+}
+.article__source {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.article__author {
+  display: flex;
+  column-gap: 21px;
+  margin: 47px 0 35px;
+}
+.author__desk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.author__name {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+.author__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.article__text {
+  max-width: 736px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 19px;
+}
 
-/* HEADER */
+/* MAIN */

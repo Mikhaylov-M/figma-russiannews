@@ -10,28 +10,55 @@
 <body>
 <header class="header" id="header">
   <h1 class="header__title">Новостной портал</h1>
-  <div class="header__search"></div>
+  <div class="header__search">
     <label>
-      <input class="search__input">
+      <input class="header__input">
     </label>
-    <button class="search__btn">Поиск</button>
+    <button class="header__btn">Поиск</button>
   </div>
 </header>
-<section class="news" id="news">
-  <article class="article">
-    <h2 class="article__title">В России выявили 24 092 новых случая коронавируса</h2>
-    <time class="article__date" datetime=""></time>
-    <img class="article__img" src="./assets/images/korona.jpg" alt="doctors photo">
-    <a class="article__source" href="#">© РИА Новости / Илья Питалев Перейти в фотобанк</a>
-    <p class="article__text">МОСКВА, 16 янв — РИА Новости. За минувшие сутки в России 
-      выявили 24 092 новых случая короанавируса, сообщили журналистам в оперативном штабе 
-      по борьбе с инфекцией.</p>
-    <p class="article__text">Почти 13 процентов заразившихся (3113 человек) переносят 
-      заболевание без симптомов. Умерли за минувшие сутки 590 человек, выписались из 
-      больниц — 27 311, причем число выздоровевших уже пятый день подряд превышает число 
-      новых случаев.</p>
-  </article>
+<section class="main" id="main">
+  <div class="news">
+    <article class="article">
+      <h2 class="article__title">В России выявили 24 092 новых случая коронавируса</h2>
+      <time class="article__date" datetime="2021-01-16T11:11">11:11 16.01.2021 (обновлено: 12:00 16.01.2021)</time>
+      <img class="article__lg-img" src="./assets/images/korona.jpg" alt="doctors photo">
+      <a class="article__source" href="#">© РИА Новости / Илья Питалев Перейти в фотобанк</a>
+      <p class="article__text"><span class="bold">МОСКВА, 16 янв — РИА Новости.</span> 
+        За минувшие сутки в России выявили 24 092 новых случая короанавируса, 
+        сообщили журналистам в оперативном штабе по борьбе с инфекцией.</p>
+      <p class="article__text">Почти 13 процентов заразившихся (3113 человек) переносят 
+        заболевание без симптомов. Умерли за минувшие сутки 590 человек, выписались из 
+        больниц — 27 311, причем число выздоровевших уже пятый день подряд превышает число 
+        новых случаев.</p>
+    </article>
+    <article class="article">
+      <h2 class="article__title">Из эмиграции в тюрьму — кто готовит путь Навальному</h2>
+      <time class="article__date" datetime="2021-01-16T08:00">08:00 16.01.2021</time>
+      <div class="article__images">
+        <img class="article__sm-img" src="./assets/images/navalny1.jpg" alt="navalny photo">
+        <img class="article__sm-img" src="./assets/images/navalny2.jpg" alt="navalny photo">
+      </div>
+      <div class="article__author">
+        <img class="author__img" src="./assets/images/petr.png" alt="petr akopov photo">
+        <div class="author__desk">
+          <h4 class="author__name">Петр Акопов</h4>
+          <a class="author__link link">Все метариалы</a>
+        </div>
+      </div>
+      <p class="article__text">Западные "друзья" России в предвкушении — от возвращения <a class="link" href="#">Алексея Навального</a>
+         в <a class="link" href="#">Москву</a> — ждут... А вот чего именно ждут — 
+         это самый интересный вопрос. Потому что от ответа на него зависит то, 
+         как руководство страны будет реагировать на пассажира рейса "<a class="link" href="#">Победы</a>" из <a class="link" href="#">Берлина</a>.</p>
+      <p class="article__text">Нет, вовсе не потому, что <a class="link" href="#">Россия</a> a не суверенная страна, 
+        а наши лидеры постоянно думают о том, что скажут на <a class="link" href="#">Западе</a>, — 
+        в этом пытаются убедить точно такие же <a class="link" href="#">Навальные</a>, 
+        только якобы патриотически настроенные. Их "патриотизм" лишь ширма для атаки 
+        на <a class="link" href="#">Путина</a> и власть в целом, а задача точно такая же, 
+        как и у "умеренного националиста и демократа" Навального: дискредитация и снос власти.</p>
+    </article>
+  </div>
+  <div class="advertising"></div>
 </section>
-<section class="advertising"></section>
 </body>
 </html>
