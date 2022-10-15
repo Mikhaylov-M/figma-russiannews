@@ -193,3 +193,14 @@ body {
   z-index: 1;
 }
 /* ADVERTISING */
+.back {
+  display: block;
+  position: fixed;
+  z-index: 999;
+  bottom: 20px;
+  right: 20px;
+}
+.back__img {
+  width: 100px;
+  height: 100px;
+}
